@@ -1,0 +1,13 @@
+number1=input("type in a number: ")
+number2=input("type in another number: ") 
+print(number1 + number2)
+
+number1=int(input("type in any number: "))
+number2=int(input("type in another number: "))
+sum=number1+number2
+
+
+if sum == 25:
+    print("the sum of",number1,"and", number2, "is",sum ,"correct !!!, it is what we want")
+else:
+    print("incorrect try again")
